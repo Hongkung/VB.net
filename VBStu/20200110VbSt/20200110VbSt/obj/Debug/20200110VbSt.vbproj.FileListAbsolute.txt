@@ -1,0 +1,13 @@
+C:\Users\Ryujaehong\source\repos\20200110VbSt\20200110VbSt\bin\Debug\20200110VbSt.exe.config
+C:\Users\Ryujaehong\source\repos\20200110VbSt\20200110VbSt\bin\Debug\20200110VbSt.exe
+C:\Users\Ryujaehong\source\repos\20200110VbSt\20200110VbSt\bin\Debug\20200110VbSt.pdb
+C:\Users\Ryujaehong\source\repos\20200110VbSt\20200110VbSt\bin\Debug\20200110VbSt.xml
+C:\Users\Ryujaehong\source\repos\20200110VbSt\20200110VbSt\obj\Debug\20200110VbSt.vbprojAssemblyReference.cache
+C:\Users\Ryujaehong\source\repos\20200110VbSt\20200110VbSt\obj\Debug\_20200110VbSt.Form1.resources
+C:\Users\Ryujaehong\source\repos\20200110VbSt\20200110VbSt\obj\Debug\_20200110VbSt.Resources.resources
+C:\Users\Ryujaehong\source\repos\20200110VbSt\20200110VbSt\obj\Debug\20200110VbSt.vbproj.GenerateResource.cache
+C:\Users\Ryujaehong\source\repos\20200110VbSt\20200110VbSt\obj\Debug\20200110VbSt.vbproj.CoreCompileInputs.cache
+C:\Users\Ryujaehong\source\repos\20200110VbSt\20200110VbSt\obj\Debug\20200110VbSt.exe
+C:\Users\Ryujaehong\source\repos\20200110VbSt\20200110VbSt\obj\Debug\20200110VbSt.xml
+C:\Users\Ryujaehong\source\repos\20200110VbSt\20200110VbSt\obj\Debug\20200110VbSt.pdb
+C:\Users\Ryujaehong\source\repos\20200110VbSt\20200110VbSt\obj\Debug\_20200110VbSt.Form2.resources

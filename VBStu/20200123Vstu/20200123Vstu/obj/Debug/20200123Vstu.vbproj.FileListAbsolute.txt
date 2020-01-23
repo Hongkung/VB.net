@@ -1,0 +1,12 @@
+C:\Users\Ryujaehong\source\repos\20200123Vstu\20200123Vstu\bin\Debug\20200123Vstu.exe.config
+C:\Users\Ryujaehong\source\repos\20200123Vstu\20200123Vstu\bin\Debug\20200123Vstu.exe
+C:\Users\Ryujaehong\source\repos\20200123Vstu\20200123Vstu\bin\Debug\20200123Vstu.pdb
+C:\Users\Ryujaehong\source\repos\20200123Vstu\20200123Vstu\bin\Debug\20200123Vstu.xml
+C:\Users\Ryujaehong\source\repos\20200123Vstu\20200123Vstu\obj\Debug\20200123Vstu.vbprojAssemblyReference.cache
+C:\Users\Ryujaehong\source\repos\20200123Vstu\20200123Vstu\obj\Debug\_20200123Vstu.Form1.resources
+C:\Users\Ryujaehong\source\repos\20200123Vstu\20200123Vstu\obj\Debug\_20200123Vstu.Resources.resources
+C:\Users\Ryujaehong\source\repos\20200123Vstu\20200123Vstu\obj\Debug\20200123Vstu.vbproj.GenerateResource.cache
+C:\Users\Ryujaehong\source\repos\20200123Vstu\20200123Vstu\obj\Debug\20200123Vstu.vbproj.CoreCompileInputs.cache
+C:\Users\Ryujaehong\source\repos\20200123Vstu\20200123Vstu\obj\Debug\20200123Vstu.exe
+C:\Users\Ryujaehong\source\repos\20200123Vstu\20200123Vstu\obj\Debug\20200123Vstu.xml
+C:\Users\Ryujaehong\source\repos\20200123Vstu\20200123Vstu\obj\Debug\20200123Vstu.pdb

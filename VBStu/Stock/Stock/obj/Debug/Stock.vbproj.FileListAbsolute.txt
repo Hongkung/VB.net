@@ -1,0 +1,12 @@
+C:\Users\Ryujaehong\source\repos\Stock\Stock\bin\Debug\Stock.exe.config
+C:\Users\Ryujaehong\source\repos\Stock\Stock\bin\Debug\Stock.exe
+C:\Users\Ryujaehong\source\repos\Stock\Stock\bin\Debug\Stock.pdb
+C:\Users\Ryujaehong\source\repos\Stock\Stock\bin\Debug\Stock.xml
+C:\Users\Ryujaehong\source\repos\Stock\Stock\obj\Debug\Stock.vbprojAssemblyReference.cache
+C:\Users\Ryujaehong\source\repos\Stock\Stock\obj\Debug\Stock.Form1.resources
+C:\Users\Ryujaehong\source\repos\Stock\Stock\obj\Debug\Stock.Resources.resources
+C:\Users\Ryujaehong\source\repos\Stock\Stock\obj\Debug\Stock.vbproj.GenerateResource.cache
+C:\Users\Ryujaehong\source\repos\Stock\Stock\obj\Debug\Stock.vbproj.CoreCompileInputs.cache
+C:\Users\Ryujaehong\source\repos\Stock\Stock\obj\Debug\Stock.exe
+C:\Users\Ryujaehong\source\repos\Stock\Stock\obj\Debug\Stock.xml
+C:\Users\Ryujaehong\source\repos\Stock\Stock\obj\Debug\Stock.pdb

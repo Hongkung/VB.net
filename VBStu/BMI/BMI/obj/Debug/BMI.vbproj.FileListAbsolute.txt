@@ -1,0 +1,12 @@
+C:\Users\Ryujaehong\source\repos\BMI\BMI\bin\Debug\BMI.exe.config
+C:\Users\Ryujaehong\source\repos\BMI\BMI\bin\Debug\BMI.exe
+C:\Users\Ryujaehong\source\repos\BMI\BMI\bin\Debug\BMI.pdb
+C:\Users\Ryujaehong\source\repos\BMI\BMI\bin\Debug\BMI.xml
+C:\Users\Ryujaehong\source\repos\BMI\BMI\obj\Debug\BMI.vbprojAssemblyReference.cache
+C:\Users\Ryujaehong\source\repos\BMI\BMI\obj\Debug\BMI.Form1.resources
+C:\Users\Ryujaehong\source\repos\BMI\BMI\obj\Debug\BMI.Resources.resources
+C:\Users\Ryujaehong\source\repos\BMI\BMI\obj\Debug\BMI.vbproj.GenerateResource.cache
+C:\Users\Ryujaehong\source\repos\BMI\BMI\obj\Debug\BMI.vbproj.CoreCompileInputs.cache
+C:\Users\Ryujaehong\source\repos\BMI\BMI\obj\Debug\BMI.exe
+C:\Users\Ryujaehong\source\repos\BMI\BMI\obj\Debug\BMI.xml
+C:\Users\Ryujaehong\source\repos\BMI\BMI\obj\Debug\BMI.pdb

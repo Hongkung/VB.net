@@ -51,6 +51,12 @@ Public Class Form1
 
     End Sub
 
+    '기본적으로 남자에 체크
+    Private Sub SetGender()
+        r_m.Checked = True
+
+    End Sub
+
     '선택 년도의 1월 1일부터 12월 말까지 출력
     Private Sub SetDate()
         Dim nowY As String = Nothing
@@ -72,11 +78,7 @@ Public Class Form1
 
 
     End Sub
-    '기본적으로 남자에 체크
-    Private Sub SetGender()
-        r_m.Checked = True
 
-    End Sub
 
     Private Sub SetResult()
 
@@ -175,6 +177,15 @@ Public Class Form1
         r_w.Checked = False
         tb_hei.Text = ""
         tb_wei.Text = ""
+        l_Name.Text = ""
+        l_brith.Text = ""
+        l_G.Text = ""
+        l_hei.Text = ""
+        l_bmi.Text = ""
+        l_aw.Text = ""
+        l_caW.Text = ""
+        l_wei.Text = ""
+
 
     End Sub
     Private Sub cb_Y_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cb_Y.SelectedIndexChanged

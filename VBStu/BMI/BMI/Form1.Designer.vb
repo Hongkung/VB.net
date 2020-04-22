@@ -225,9 +225,8 @@ Partial Class Form1
         Me.l_Name.AutoSize = True
         Me.l_Name.Location = New System.Drawing.Point(306, 100)
         Me.l_Name.Name = "l_Name"
-        Me.l_Name.Size = New System.Drawing.Size(42, 12)
+        Me.l_Name.Size = New System.Drawing.Size(0, 12)
         Me.l_Name.TabIndex = 8
-        Me.l_Name.Text = "Label9"
         '
         'Label11
         '
@@ -243,9 +242,8 @@ Partial Class Form1
         Me.l_brith.AutoSize = True
         Me.l_brith.Location = New System.Drawing.Point(306, 161)
         Me.l_brith.Name = "l_brith"
-        Me.l_brith.Size = New System.Drawing.Size(42, 12)
+        Me.l_brith.Size = New System.Drawing.Size(0, 12)
         Me.l_brith.TabIndex = 8
-        Me.l_brith.Text = "Label9"
         '
         'Label13
         '
@@ -261,9 +259,8 @@ Partial Class Form1
         Me.l_G.AutoSize = True
         Me.l_G.Location = New System.Drawing.Point(306, 236)
         Me.l_G.Name = "l_G"
-        Me.l_G.Size = New System.Drawing.Size(42, 12)
+        Me.l_G.Size = New System.Drawing.Size(0, 12)
         Me.l_G.TabIndex = 8
-        Me.l_G.Text = "Label9"
         '
         'Label15
         '
@@ -279,9 +276,8 @@ Partial Class Form1
         Me.l_hei.AutoSize = True
         Me.l_hei.Location = New System.Drawing.Point(475, 100)
         Me.l_hei.Name = "l_hei"
-        Me.l_hei.Size = New System.Drawing.Size(42, 12)
+        Me.l_hei.Size = New System.Drawing.Size(0, 12)
         Me.l_hei.TabIndex = 8
-        Me.l_hei.Text = "Label9"
         '
         'Label17
         '
@@ -297,9 +293,8 @@ Partial Class Form1
         Me.l_bmi.AutoSize = True
         Me.l_bmi.Location = New System.Drawing.Point(475, 161)
         Me.l_bmi.Name = "l_bmi"
-        Me.l_bmi.Size = New System.Drawing.Size(42, 12)
+        Me.l_bmi.Size = New System.Drawing.Size(0, 12)
         Me.l_bmi.TabIndex = 8
-        Me.l_bmi.Text = "Label9"
         '
         'Label19
         '
@@ -315,9 +310,8 @@ Partial Class Form1
         Me.l_aw.AutoSize = True
         Me.l_aw.Location = New System.Drawing.Point(475, 236)
         Me.l_aw.Name = "l_aw"
-        Me.l_aw.Size = New System.Drawing.Size(42, 12)
+        Me.l_aw.Size = New System.Drawing.Size(0, 12)
         Me.l_aw.TabIndex = 8
-        Me.l_aw.Text = "Label9"
         '
         'Label21
         '
@@ -333,9 +327,8 @@ Partial Class Form1
         Me.l_wei.AutoSize = True
         Me.l_wei.Location = New System.Drawing.Point(650, 100)
         Me.l_wei.Name = "l_wei"
-        Me.l_wei.Size = New System.Drawing.Size(42, 12)
+        Me.l_wei.Size = New System.Drawing.Size(0, 12)
         Me.l_wei.TabIndex = 8
-        Me.l_wei.Text = "Label9"
         '
         'Label23
         '
@@ -351,9 +344,8 @@ Partial Class Form1
         Me.l_caW.AutoSize = True
         Me.l_caW.Location = New System.Drawing.Point(475, 304)
         Me.l_caW.Name = "l_caW"
-        Me.l_caW.Size = New System.Drawing.Size(11, 12)
+        Me.l_caW.Size = New System.Drawing.Size(0, 12)
         Me.l_caW.TabIndex = 8
-        Me.l_caW.Text = "-"
         '
         'Label25
         '

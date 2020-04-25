@@ -6,12 +6,16 @@ Public Class Form1
     Private startY As Integer = 2010
     Private endY As Integer = 1910
     Private dateFormat As String = "{0}/{1}"
+    Private brithdRe As String = "{0}/{1}"
 
     Private nameRe As String = Nothing
     Private heightRe As String = Nothing
     Private weightRe As String = Nothing
-    Private brithdRe As String = "{0}/{1}"
-    Private bmi As Decimal
+
+    Private Bmi As Decimal = 0.0
+    Private Aw As Decimal = 0.0
+    Dim caW As Decimal = 0.0
+
 
     Private errMsg As ArrayList
     Private errMsgFomat As String = "Please type your {0}."
@@ -22,6 +26,13 @@ Public Class Form1
         SetYear()
         SetTabIndex()
         SetGender()
+    End Sub
+
+#Region "setForm"
+    '기본적으로 남자에 체크
+    Private Sub SetGender()
+        r_m.Checked = True
+
     End Sub
 
     Private Sub SetTabIndex()
@@ -51,12 +62,6 @@ Public Class Form1
 
     End Sub
 
-    '기본적으로 남자에 체크
-    Private Sub SetGender()
-        r_m.Checked = True
-
-    End Sub
-
     '선택 년도의 1월 1일부터 12월 말까지 출력
     Private Sub SetDate()
         Dim nowY As String = Nothing
@@ -78,15 +83,8 @@ Public Class Form1
 
 
     End Sub
+#End Region
 
-
-    Private Sub SetResult()
-
-        nameRe = t_Name.Text.Trim
-        heightRe = tb_hei.Text.Trim
-        weightRe = tb_wei.Text.Trim
-
-    End Sub
 
     Private Sub ErrChk()
         errMsg = New ArrayList
@@ -101,8 +99,15 @@ Public Class Form1
 
     End Sub
 
-#Region "Result"
-    Private Sub SetExResult()
+    Private Sub SetInput()
+
+        nameRe = t_Name.Text.Trim
+        heightRe = tb_hei.Text.Trim
+        weightRe = tb_wei.Text.Trim
+
+    End Sub
+
+    Private Sub SetResult()
         Dim nowY As String = cb_Y.SelectedItem
         Dim nowMD As String = cb_md.SelectedItem
 
@@ -115,38 +120,39 @@ Public Class Form1
         Else
             l_G.Text = r_w.Text
         End If
+
         l_hei.Text = heightRe
         l_wei.Text = weightRe
+
+        calBMI()
+        calAW()
+        l_aw.Text = Math.Round(Aw, 2)
+        l_caW.Text = Math.Round(caW, 2)
+        l_bmi.Text = Bmi
     End Sub
 
-    Private Sub SetBMI()
-        bmi = 0.0
+    Private Sub calBMI()
+        Bmi = 0.0
         Dim hi As Decimal = CType(heightRe, Decimal)
         Dim wi As Decimal = CType(weightRe, Decimal)
 
-        bmi = (hi * hi) Mod wi
-        l_bmi.Text = bmi
+        Bmi = (hi * hi) Mod wi
     End Sub
 
-    Private Sub SetAW()
+    Private Sub calAW()
         Dim heiM As Decimal = 0.0
-        Dim bmiAV As Decimal = 0.0
-        Dim caW As Decimal = 0.0
 
         heiM = CType(heightRe, Decimal) / 100
-        bmiAV = heiM * heiM * bmi
+        Aw = heiM * heiM * Bmi
 
-        caW = bmi - bmiAV
+        caW = Bmi - Aw
 
-        l_aw.Text = Math.Round(bmiAV, 2)
-        l_caW.Text = Math.Round(caW, 2)
     End Sub
 
-#End Region
-
+#Region "Button"
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim str As String = Nothing
-        SetResult()
+        SetInput()
         ErrChk()
 
         If errMsg.Count <> 0 Then
@@ -159,15 +165,15 @@ Public Class Form1
             errMsg.Clear()
             Exit Sub
         End If
-
-
-        SetExResult()
-        SetBMI()
-        SetAW()
-
-
-
+        SetResult()
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        SetClear()
+    End Sub
+
+#End Region
+
     Private Sub SetClear()
 
         t_Name.Text = ""
@@ -185,8 +191,6 @@ Public Class Form1
         l_aw.Text = ""
         l_caW.Text = ""
         l_wei.Text = ""
-
-
     End Sub
     Private Sub cb_Y_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cb_Y.SelectedIndexChanged
         If cb_Y.Text <> "" Then
@@ -194,9 +198,6 @@ Public Class Form1
         End If
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        SetClear()
-    End Sub
 
     Private Sub t_Name_KeyPress(sender As Object, e As KeyPressEventArgs) Handles t_Name.KeyPress
 

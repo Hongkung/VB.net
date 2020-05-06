@@ -1,0 +1,12 @@
+C:\Users\Ryujaehong\source\repos\Sort\Sort\bin\Debug\Sort.exe.config
+C:\Users\Ryujaehong\source\repos\Sort\Sort\bin\Debug\Sort.exe
+C:\Users\Ryujaehong\source\repos\Sort\Sort\bin\Debug\Sort.pdb
+C:\Users\Ryujaehong\source\repos\Sort\Sort\bin\Debug\Sort.xml
+C:\Users\Ryujaehong\source\repos\Sort\Sort\obj\Debug\Sort.vbprojAssemblyReference.cache
+C:\Users\Ryujaehong\source\repos\Sort\Sort\obj\Debug\Sort.Form1.resources
+C:\Users\Ryujaehong\source\repos\Sort\Sort\obj\Debug\Sort.Resources.resources
+C:\Users\Ryujaehong\source\repos\Sort\Sort\obj\Debug\Sort.vbproj.GenerateResource.cache
+C:\Users\Ryujaehong\source\repos\Sort\Sort\obj\Debug\Sort.vbproj.CoreCompileInputs.cache
+C:\Users\Ryujaehong\source\repos\Sort\Sort\obj\Debug\Sort.exe
+C:\Users\Ryujaehong\source\repos\Sort\Sort\obj\Debug\Sort.xml
+C:\Users\Ryujaehong\source\repos\Sort\Sort\obj\Debug\Sort.pdb
